@@ -3,8 +3,7 @@ import React from 'react';
 import { render, fireEvent } from '@testing-library/react-native';
 import Login from '../../screens/Login';
 import useLoginForm from '../../hooks/UseLoginForm';
- 
-jest.mock('../hooks/useLoginForm'); // Mock the custom hook
+jest.mock('../hooks/useLoginForm'); 
 
 describe('Login Component', () => {
   const mockNavigation = { replace: jest.fn() };
