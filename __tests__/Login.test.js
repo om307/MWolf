@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react-native';
-import Login from '../../screens/Login';
-import useLoginForm from '../../hooks/UseLoginForm';
+import Login from '../src/screens/Login';
+import useLoginForm from '../src/hooks/UseLoginForm';
 jest.mock('../hooks/useLoginForm'); 
 
 describe('Login Component', () => {
